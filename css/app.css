@@ -1,0 +1,24 @@
+.mg20{
+    margin:20px
+}
+
+#tr_x::before,#tr_y::before,#te_x::before,#te_y::before{
+    content: attr(data-title);
+    top:0;
+    background: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box{
+    background: #fff;
+    height: 200px;
+    border-radius: 8px;
+    box-sizing:border-box;
+    padding:20px;
+}
+
+body{
+    background: rgb(33, 150, 243);
+    
+}

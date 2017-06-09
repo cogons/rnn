@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>RNN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/app.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+  <div id="container" style="width:80%;margin:0 auto;text-align:center;margin-top:100px;">
+    <div style="margin-bottom:30px;">
+    <span style="color:#fff;font-size:30px">Recurrent Neural Networks Live Demo</span>
+  </div>
+  <div id="op" style="margin-bottom:30px;">
+    <button id="gen_tr" class="btn">生成训练集</button>
+<button id="gen_te" class="btn">生成测试集</button>
+<button id="predict" class="btn">预测结果</button>
+  </div>
+  <div id="app" class="row">
+<div id="tr_x" class="span6 mg20 box" data-title="训练集：x"></div>
+<div id="tr_y" class="span6 mg20 box" data-title="训练集：y"></div>
+<div id="te_x" class="span6 mg20 box" data-title="测试集"></div>
+<div id="te_y" class="span6 mg20 box" data-title="预测结果"></div>
+  </div></div>
+  <!-- built files will be auto injected -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="bundle.js"></script>
+  
+</body>
+
+</html>
